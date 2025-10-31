@@ -1,0 +1,4 @@
+source;share/ss_robot/local_setup.bash
+source;share/ss_robot/local_setup.dsv
+source;share/ss_robot/local_setup.sh
+source;share/ss_robot/local_setup.zsh

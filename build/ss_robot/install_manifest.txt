@@ -1,0 +1,15 @@
+/home/rakesh/ros2_ws/install/ss_robot/share/ament_index/resource_index/package_run_dependencies/ss_robot
+/home/rakesh/ros2_ws/install/ss_robot/share/ament_index/resource_index/parent_prefix_path/ss_robot
+/home/rakesh/ros2_ws/install/ss_robot/share/ss_robot/environment/ament_prefix_path.sh
+/home/rakesh/ros2_ws/install/ss_robot/share/ss_robot/environment/ament_prefix_path.dsv
+/home/rakesh/ros2_ws/install/ss_robot/share/ss_robot/environment/path.sh
+/home/rakesh/ros2_ws/install/ss_robot/share/ss_robot/environment/path.dsv
+/home/rakesh/ros2_ws/install/ss_robot/share/ss_robot/local_setup.bash
+/home/rakesh/ros2_ws/install/ss_robot/share/ss_robot/local_setup.sh
+/home/rakesh/ros2_ws/install/ss_robot/share/ss_robot/local_setup.zsh
+/home/rakesh/ros2_ws/install/ss_robot/share/ss_robot/local_setup.dsv
+/home/rakesh/ros2_ws/install/ss_robot/share/ss_robot/package.dsv
+/home/rakesh/ros2_ws/install/ss_robot/share/ament_index/resource_index/packages/ss_robot
+/home/rakesh/ros2_ws/install/ss_robot/share/ss_robot/cmake/ss_robotConfig.cmake
+/home/rakesh/ros2_ws/install/ss_robot/share/ss_robot/cmake/ss_robotConfig-version.cmake
+/home/rakesh/ros2_ws/install/ss_robot/share/ss_robot/package.xml
