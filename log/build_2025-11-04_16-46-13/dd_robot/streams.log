@@ -1,0 +1,140 @@
+[0.012s] Invoking command in '/home/rakesh/ros2_ws/build/dd_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy: DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rakesh/ros2_ws/src/differential_drive/dd_robot -DCMAKE_INSTALL_PREFIX=/home/rakesh/ros2_ws/install/dd_robot
+[0.087s] -- The C compiler identification is GNU 13.3.0
+[0.156s] -- The CXX compiler identification is GNU 13.3.0
+[0.184s] -- Detecting C compiler ABI info
+[0.304s] -- Detecting C compiler ABI info - done
+[0.321s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.321s] -- Detecting C compile features
+[0.322s] -- Detecting C compile features - done
+[0.341s] -- Detecting CXX compiler ABI info
+[0.479s] -- Detecting CXX compiler ABI info - done
+[0.502s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.503s] -- Detecting CXX compile features
+[0.504s] -- Detecting CXX compile features - done
+[0.510s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.694s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.955s] -- Configuring done (0.9s)
+[0.959s] -- Generating done (0.0s)
+[0.960s] -- Build files have been written to: /home/rakesh/ros2_ws/build/dd_robot
+[0.968s] Invoked command in '/home/rakesh/ros2_ws/build/dd_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy: DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rakesh/ros2_ws/src/differential_drive/dd_robot -DCMAKE_INSTALL_PREFIX=/home/rakesh/ros2_ws/install/dd_robot
+[0.969s] Invoking command in '/home/rakesh/ros2_ws/build/dd_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy: DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rakesh/ros2_ws/build/dd_robot -- -j12 -l12
+[1.026s] Invoked command in '/home/rakesh/ros2_ws/build/dd_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy: DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rakesh/ros2_ws/build/dd_robot -- -j12 -l12
+[1.039s] Invoking command in '/home/rakesh/ros2_ws/build/dd_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy: DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rakesh/ros2_ws/build/dd_robot
+[1.050s] -- Install configuration: ""
+[1.050s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf
+[1.051s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/common_properties.xacro
+[1.051s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/robot_control.xacro
+[1.051s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/mobile_base_gazebo.sdf
+[1.051s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/mobile_base.sdf
+[1.051s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/mobile_base_gazebo.xacro
+[1.051s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/mobile_base.xacro
+[1.052s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/transmission.xacro
+[1.052s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/robot.urdf.xacro
+[1.052s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//launch
+[1.052s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//launch/display.launch.py
+[1.052s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//launch/display.launch.xml
+[1.052s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//launch/nav2.launch.py
+[1.052s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//rviz
+[1.052s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//rviz/robot.rviz
+[1.053s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//rviz/dd_robot.rviz
+[1.053s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//config
+[1.053s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//config/nav2_costmap.yaml
+[1.053s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//config/ekf.yaml
+[1.053s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//config/slam_params.yaml
+[1.054s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//config/nav2_params.yaml
+[1.054s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//config/gazebo_bridge.yaml
+[1.054s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//config/dd_control.yaml
+[1.054s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds
+[1.055s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/model.sdf
+[1.055s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/thumbnails
+[1.055s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/thumbnails/2.png
+[1.057s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/thumbnails/1.png
+[1.059s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/thumbnails/3.png
+[1.062s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/thumbnails/0.png
+[1.065s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/thumbnails/4.png
+[1.067s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/thumbnails/5.png
+[1.069s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/model.config
+[1.070s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/meshes
+[1.070s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/meshes/Depot.dae
+[1.095s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/meshes/Crates.dae
+[1.097s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials
+[1.098s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/scripts
+[1.098s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/scripts/model.material
+[1.098s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures
+[1.098s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/STAIRS_Albedo.png
+[1.100s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/INTERCOM_Emissive.png
+[1.101s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarmPole_Albedo.png
+[1.101s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/WALLS_Normal.png
+[1.107s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FANS_Normal.png
+[1.109s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/PILLERS_Normal.png
+[1.111s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/PILLERS_Metalness.png
+[1.111s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Window_WINDOW_Metallic.png
+[1.111s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/WALLS_Roughness.png
+[1.112s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Forklift_Forklift_Metallic.png
+[1.113s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/ROOF_Emissive.png
+[1.113s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarmPole_Normal.png
+[1.113s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FLOOR_Roughness.png
+[1.116s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/BOXSET_Metalness.png
+[1.116s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/WALLS_Albedo.png
+[1.122s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/INTERCOM_Albedo.png
+[1.122s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/INTERCOM_Normal.png
+[1.123s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarm_Metalness.png
+[1.123s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarm_Albedo.png
+[1.125s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarmPole_Metalness.png
+[1.125s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/ROOF_Albedo.png
+[1.129s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FANS_Metalness.png
+[1.129s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Window_WINDOW_Roughness.png
+[1.131s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FLOOR_Normal.png
+[1.133s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/ROOF_Normal.png
+[1.135s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/STAIRS_Normal.png
+[1.138s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/STAIRS_Metalness.png
+[1.139s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/BOXSET_Emissive.png
+[1.139s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Pipes_Normal.png
+[1.139s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarmPole_Roughness.png
+[1.139s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Crates_Crates_Normal.png
+[1.143s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/INTERCOM_Roughness.png
+[1.143s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/BOXSET_Normal.png
+[1.145s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarm_Normal.png
+[1.145s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FLOOR_Albedo.png
+[1.149s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/ROOF_Roughness.png
+[1.150s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Window_WINDOW_BaseColor.png
+[1.151s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Pipes_Metalness.png
+[1.151s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FLOOR_Metalness.png
+[1.152s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/BOXSET_Roughness.png
+[1.153s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Forklift_Forklift_Roughness.png
+[1.156s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FANS_Roughness.png
+[1.157s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Forklift_Forklift_Normal.png
+[1.161s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Pipes_Roughness.png
+[1.162s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FanBack_FanBack_BaseColor.png
+[1.162s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/DepotLightmap.png
+[1.168s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/ROOF_Metalness.png
+[1.169s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Crates_Crates_Roughness.png
+[1.170s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarm_Roughness.png
+[1.171s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Crates_Crates_BaseColor.png
+[1.175s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/STAIRS_Roughness.png
+[1.177s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FANS_Albedo.png
+[1.179s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Forklift_Forklift_BaseColor.png
+[1.184s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/PILLERS_Albedo.png
+[1.186s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/PILLERS_Roughness.png
+[1.188s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Pipes_Albedo.png
+[1.188s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/WALLS_Metalness.png
+[1.188s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/INTERCOM_Metalness.png
+[1.189s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/BOXSET_Albedo.png
+[1.192s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//scripts
+[1.193s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//scripts/nav2_test.py
+[1.193s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/ament_index/resource_index/package_run_dependencies/dd_robot
+[1.193s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/ament_index/resource_index/parent_prefix_path/dd_robot
+[1.194s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/environment/ament_prefix_path.sh
+[1.194s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/environment/ament_prefix_path.dsv
+[1.194s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/environment/path.sh
+[1.194s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/environment/path.dsv
+[1.194s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/local_setup.bash
+[1.195s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/local_setup.sh
+[1.195s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/local_setup.zsh
+[1.195s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/local_setup.dsv
+[1.195s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/package.dsv
+[1.195s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/ament_index/resource_index/packages/dd_robot
+[1.195s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/cmake/dd_robotConfig.cmake
+[1.196s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/cmake/dd_robotConfig-version.cmake
+[1.196s] -- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/package.xml
+[1.198s] Invoked command in '/home/rakesh/ros2_ws/build/dd_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy: DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rakesh/ros2_ws/build/dd_robot

@@ -1,0 +1,134 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/rakesh/ros2_ws/build/dd_robot
+-- Install configuration: ""
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/common_properties.xacro
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/robot_control.xacro
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/mobile_base_gazebo.sdf
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/mobile_base.sdf
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/mobile_base_gazebo.xacro
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/mobile_base.xacro
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/transmission.xacro
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//urdf/robot.urdf.xacro
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//launch
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//launch/display.launch.py
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//launch/display.launch.xml
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//launch/nav2.launch.py
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//rviz
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//rviz/robot.rviz
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//rviz/dd_robot.rviz
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//config
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//config/nav2_costmap.yaml
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//config/ekf.yaml
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//config/slam_params.yaml
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//config/nav2_params.yaml
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//config/gazebo_bridge.yaml
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//config/dd_control.yaml
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/model.sdf
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/thumbnails
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/thumbnails/2.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/thumbnails/1.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/thumbnails/3.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/thumbnails/0.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/thumbnails/4.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/thumbnails/5.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/model.config
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/meshes
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/meshes/Depot.dae
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/meshes/Crates.dae
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/scripts
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/scripts/model.material
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/STAIRS_Albedo.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/INTERCOM_Emissive.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarmPole_Albedo.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/WALLS_Normal.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FANS_Normal.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/PILLERS_Normal.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/PILLERS_Metalness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Window_WINDOW_Metallic.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/WALLS_Roughness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Forklift_Forklift_Metallic.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/ROOF_Emissive.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarmPole_Normal.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FLOOR_Roughness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/BOXSET_Metalness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/WALLS_Albedo.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/INTERCOM_Albedo.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/INTERCOM_Normal.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarm_Metalness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarm_Albedo.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarmPole_Metalness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/ROOF_Albedo.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FANS_Metalness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Window_WINDOW_Roughness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FLOOR_Normal.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/ROOF_Normal.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/STAIRS_Normal.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/STAIRS_Metalness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/BOXSET_Emissive.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Pipes_Normal.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarmPole_Roughness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Crates_Crates_Normal.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/INTERCOM_Roughness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/BOXSET_Normal.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarm_Normal.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FLOOR_Albedo.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/ROOF_Roughness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Window_WINDOW_BaseColor.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Pipes_Metalness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FLOOR_Metalness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/BOXSET_Roughness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Forklift_Forklift_Roughness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FANS_Roughness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Forklift_Forklift_Normal.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Pipes_Roughness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FanBack_FanBack_BaseColor.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/DepotLightmap.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/ROOF_Metalness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Crates_Crates_Roughness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FireAlarm_Roughness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Crates_Crates_BaseColor.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/STAIRS_Roughness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/FANS_Albedo.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Forklift_Forklift_BaseColor.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/PILLERS_Albedo.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/PILLERS_Roughness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/Pipes_Albedo.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/WALLS_Metalness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/INTERCOM_Metalness.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//worlds/materials/textures/BOXSET_Albedo.png
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//scripts
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot//scripts/nav2_test.py
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/ament_index/resource_index/package_run_dependencies/dd_robot
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/ament_index/resource_index/parent_prefix_path/dd_robot
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/environment/ament_prefix_path.sh
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/environment/path.sh
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/environment/path.dsv
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/local_setup.bash
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/local_setup.sh
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/local_setup.zsh
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/local_setup.dsv
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/package.dsv
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/ament_index/resource_index/packages/dd_robot
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/cmake/dd_robotConfig.cmake
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/cmake/dd_robotConfig-version.cmake
+-- Installing: /home/rakesh/ros2_ws/install/dd_robot/share/dd_robot/package.xml
