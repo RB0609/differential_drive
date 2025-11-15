@@ -7,14 +7,14 @@
 https://github.com/user-attachments/assets/1b53e178-9909-4a6d-b03d-a3bee1ce38e4
 
 
-## ROS System Architecture
+## ROS2 System Architecture
 <img width="1111" height="821" alt="ros" src="https://github.com/user-attachments/assets/8518fe64-3409-44c7-ac65-3691ce464edf" />
 
 
 
 ## Features
-- Robot simulation in a indoor environment in Gazebo Harmonic
-- Navigation (using Nav2 Stack) from Point A to Point B, using "Nav2goal" feature from Nav2
+- Robot simulation in a indoor environment in **Gazebo Harmonic**
+- Navigation (using Nav2 Stack) from Point A to Point B, using **"Nav2goal"** feature from **Nav2 stack**
 
 ## Requirements
 - Ubuntu 24.04
@@ -61,6 +61,6 @@ in Terminal2:
 ros2 launch nav2_bringup bringup_launch.py   use_sim_time:=true   map:=/home/rakesh/map.yaml   params_file:=/home/rakesh/ros2_ws/src/differential_drive/dd_robot/config/nav2_params.yaml
 ```
 ## Further work
-1. Include Turtlebot3 waffle model
-2. Working on Sim2Real
+1. Plan to Include **Turtlebot3 waffle** model
+2. Working on **Sim2Real**
 ```
