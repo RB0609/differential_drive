@@ -7,6 +7,10 @@
 https://github.com/user-attachments/assets/1b53e178-9909-4a6d-b03d-a3bee1ce38e4
 
 
+## ROS System Architecture
+<img width="1111" height="821" alt="ros" src="https://github.com/user-attachments/assets/8518fe64-3409-44c7-ac65-3691ce464edf" />
+
+
 
 ## Features
 - Robot simulation in a indoor environment in Gazebo Harmonic
