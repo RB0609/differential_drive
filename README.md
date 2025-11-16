@@ -39,7 +39,12 @@ source install/setup.bash
 ros2 launch dd_robot display.launch.py
 ```
 ## Steps to Perform Navigation
-In nav2_params.yaml file which is in config folder
+In **nav2_params.yaml** file which is in config folder.<br>
+```text
+dd_robot/
+└── config/  
+    └── nav2_params.yaml    
+```
 ```bash
 map_server:
   ros__parameters:
