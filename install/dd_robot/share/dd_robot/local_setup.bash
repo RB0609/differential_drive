@@ -1,1 +1,0 @@
-/home/rakesh/ros2_ws/build/dd_robot/ament_cmake_environment_hooks/local_setup.bash
