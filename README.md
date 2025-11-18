@@ -15,6 +15,7 @@ https://github.com/user-attachments/assets/1b53e178-9909-4a6d-b03d-a3bee1ce38e4
 ## Features
 - Robot simulation in a indoor environment in **Gazebo Harmonic**
 - Navigation (using Nav2 Stack) from Point A to Point B, using **"Nav2goal"** feature from **Nav2 stack**
+- Docker file included
 
 ## Requirements
 - Ubuntu 24.04
@@ -64,6 +65,63 @@ below is the example usage<br>
 in Terminal2:
 ```bash
 ros2 launch nav2_bringup bringup_launch.py   use_sim_time:=true   map:=/home/rakesh/map.yaml   params_file:=/home/rakesh/ros2_ws/src/differential_drive/dd_robot/config/nav2_params.yaml
+```
+## Follow these steps to view this project<br>
+### 1. Prerequisites
+- OS: Linux with a graphical desktop (X11)
+- [Docker](https://docs.docker.com/get-docker/) installed and running
+
+You **do not** need ROS 2 installed on the host.
+
+---
+
+### 2. Clone this repository
+
+```bash
+git clone https://github.com/RB0609/differential_drive.git
+cd differential_drive    # this should contain the Dockerfile and src/
+```
+### 3. Build the Docker image<br>
+From the repo root where the Dokcerfile is:
+ ```bash
+docker build -t differential_drive_jazzy .
+```
+### 4. Run the container with GUI support (Gazebo)<br>
+On the host (not inside Docker), allow Docker to access your X server:
+```bash
+xhost +local:docker
+```
+Then start the container:
+```bash
+docker run -it \
+  --name dd_container \
+  --net=host \
+  -e DISPLAY=$DISPLAY \
+  -e QT_X11_NO_MITSHM=1 \
+  -e LIBGL_ALWAYS_SOFTWARE=1 \
+  -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
+  differential_drive_jazzy
+```
+You’ll get a shell inside the container:
+```bash
+root@<container-id>:/ros2_ws#
+```
+### 5. Launch the simulation inside the container<br>
+Inside the container:
+```bash
+ros2 launch dd_robot display.launch.py
+```
+### 6. Open additional terminals inside the same container (for debugging)<br>
+You can open as many extra shells as you want in the same running container.<br>
+On the host, in a new terminal:<br>
+```bash
+docker exec -it dd_container bash
+```
+Inside that new shell, you can run:
+```bash
+ros2 topic list
+ros2 topic echo /odom
+ros2 node list
 ```
 ## Further work
 1. Plan to Include **Turtlebot3 waffle** model
